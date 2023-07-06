@@ -7,12 +7,10 @@ const loader = document.getElementById('loader');
 
 let apiQuote = [];
 
-// Show the loader
 function showLoadingSpin() {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
-// Stop to show the loader
 function stopLoadingSpin() {
     quoteContainer.hidden = false;
     loader.hidden = true;
